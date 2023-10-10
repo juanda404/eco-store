@@ -40,10 +40,12 @@ article {
   padding-top: 70px;
 }
 article .impact-section {
-  gap: 25px;
   display: flex;
-  padding-top: 50px;
   flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 25px;
+  padding-top: 50px;
 }
 article h1 {
   font-size: 3em;
@@ -131,6 +133,33 @@ section .furniture .product-card {
   color: white;
 }
 
+.about-us {
+  padding-bottom: 60px;
+}
+.about-us h2 {
+  font-weight: bold;
+  padding-bottom: 60px;
+}
+.about-us .mision-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about-us .mision-section .earth, .about-us .mision-section .inovation {
+  display: flex;
+  gap: 40px;
+  width: 30vw;
+  color: #E86424;
+}
+.about-us .mision-section .earth img, .about-us .mision-section .inovation img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.about-us .mision-section .earth p, .about-us .mision-section .inovation p {
+  text-align: center;
+  font-size: 1.5em;
+}
 footer {
   background-color: #FA9500;
   width: 100%;
